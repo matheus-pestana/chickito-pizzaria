@@ -1,0 +1,245 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #FFF9EB;
+    display: grid;
+
+}
+nav {
+    background-color: #fd867b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+nav li:hover {
+    background-color: #E44737;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 4.4rem;
+}
+
+
+.img_entregador {
+    width: 12rem;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.promo {
+   display: grid;
+}
+
+.entregador {
+    padding: 2rem   ;
+}
+
+.centro {
+    text-align: center;
+}
+  
+.btn-home {
+    text-decoration: none;
+    color: black;
+    border-radius: 700px;
+    background-color: #E6D3AF;
+    font-size: 2rem;
+    padding: 10px 25px;
+}
+
+.btn-promo {
+    width: 45rem;
+    padding: 20px ;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media  only screen  and (max-width: 320px) {
+
+
+    nav {
+        width: 57rem; 
+        
+    }
+
+
+    .logo {
+        vertical-align: middle;
+        width: 4rem;
+    }
+
+    .seta {
+        width: 20px;
+    }
+
+    .user {
+        width: 30px;
+    }
+
+    .promo {
+        width: 1em;
+    }
+}
+
+@media  only screen  and (max-width: 480px) and (min-width: 319px) {
+
+
+    nav {
+        width: 57rem;
+    }
+
+    .logo {
+        vertical-align: middle;
+        width: 4rem;
+    }
+
+
+    nav ul {
+        list-style: none;
+
+    }
+
+    .seta {
+        width: 20px;
+    }
+
+    .user {
+        width: 30px;
+    }
+
+    .promo {
+        width: 1em;
+    }
+    
+}
+
+@media only screen and (width: 540px) {
+      
+  
+    nav a {
+    font-size: 13px;
+    }
+
+    .seta {
+        width: 10px;    
+    }
+
+    .user {
+        width: 20px;
+    }
+
+}
+
+
+@media  only screen  and (max-width: 768px) and (min-width: 719px) {
+    nav a {
+        font-size: 17px;
+        padding: 17px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+
+    .seta {
+        width: 20px;    
+    }
+
+    .user {
+        width: 30px;
+    }
+
+    .promo {
+        width: 1em;
+    }
+
+}
+
+@media  only screen  and (max-width: 900px) and (min-width: 767px) {
+
+    nav a {
+        font-size: 18px;
+        padding: 18px;
+    }
+
+    .seta {
+        width: 20px;
+    }
+
+    .user {
+        width: 30px;
+    }
+
+    .promo {
+        width: 1em;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+}
+
+@media  only screen  and (max-width: 1024px) and (min-width: 899px) {
+  
+
+    nav a {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+
+    .seta {
+        width: 30px;
+    }
+
+    .user {
+        width: 40px;
+    }
+}
+
+@media  only screen  and (max-width: 1200px) and (min-width: 1023px) {
+
+    nav a {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+}

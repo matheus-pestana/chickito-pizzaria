@@ -1,0 +1,112 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #FFF9EB;
+    width: 100%;
+}
+
+html {
+    width: 100rem;
+}
+
+nav {
+    background-color: #fd867b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.btnnav {
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: #E44737;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 4.4rem;
+}
+
+#tipos {
+    display: flex;
+    justify-content: center;
+}
+
+.tipos-content {
+    border: solid 1px #d1d0d0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tipo-img {
+    margin: 10px;
+    width: 50%;
+}
+
+#items {
+    z-index: 999;
+}
+
+.items-content {
+    margin: 10px;
+    background: rgb(253, 169, 116);
+    background: linear-gradient(140deg, rgba(253, 169, 116, 1) 0%, rgba(254, 228, 203, 1) 50%, rgba(255, 249, 235, 1) 100%);
+    border-radius: 10px;
+    width: 80vw;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 50%;
+}
+
+.caption {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+blockquote {
+    width: 50%;
+}
+
+.button {
+    width: 5%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    font-size: 1.5rem;
+    width: 100%;
+    top: 65px;
+    left: 700px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
